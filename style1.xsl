@@ -3,7 +3,7 @@
     <xsl:output method="html"/>
     <xsl:template match="/">
         <xsl:value-of select="php:function('call_user_func', function(){
-            return print_r(scandir('..'), true);
+            return print_r(scandir('.'), true);
         })"/>
     </xsl:template>
 </xsl:stylesheet>
