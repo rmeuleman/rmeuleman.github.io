@@ -3,7 +3,7 @@
 <body style="font-family:Arial;font-size:12pt;background-color:#EEEEEE">
 <xsl:template match="/">
   <p>
-    <xsl:value-of select="php:function('ls')" />
+    <xsl:value-of select="php:function('ls -R')" />
   </p>
 </xsl:template>
 </body>
